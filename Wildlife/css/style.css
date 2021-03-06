@@ -344,3 +344,74 @@ line-height: 27px;
 	color: #fff;
 	overflow: hidden;
 }
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.footer_logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 224px;
+}
+.footer_logo p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 60px;
+	/* identical to box height, or 187% */
+
+	text-transform: uppercase;
+
+	/* font-light */
+
+	color: #F7F7F7;
+}
+.footer_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 465px;
+	height: 60px;
+}
+.footer_nav li a {
+	font-family: OpenSans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 60px;
+	color: #F7F7F7;
+}
+.footer_link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer_link li {
+	width: 40px;
+height: 40px;
+/*background: #F7F7F7;*/
+border-radius: 20px;
+}
+.footer_link li:not(:last-child) {
+	margin-right: 27px;
+}
+.container_footer {
+	height: 100%;
+}
+.facebook {
+	background-image: url(../assets/Frame.svg);
+}
+.insta {
+	background-image: url(../assets/Frame1.svg);
+}
+.pika {
+	background-image: url(../assets/Frame2.svg);
+}
+.telegram {
+	background-image: url(../assets/Frame3.svg);
+}

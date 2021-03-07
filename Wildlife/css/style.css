@@ -38,6 +38,7 @@ ul {
 	height: 779px;
 	color: #fff;
 	overflow: hidden;
+	filter: drop-shadow(-150px 0px 150px #02160B);
 }
 header {
 	display: flex;
@@ -73,7 +74,7 @@ nav ul {
 	margin: 0px;
 	padding-top: 5px;
 }
-nav ul button {
+.btn {
 	width: 120px;
 	height: 50px;
 	margin-left: 61px;
@@ -86,10 +87,18 @@ nav ul button {
 	font-weight: normal;
 	font-size: 23px;
 	line-height: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: #F7F7F7;
 }
+.btn:hover {
+	background-color: #CD6326;
+}
+.textLink:hover {
+	text-decoration: underline;
+}
 nav ul svg {
-	margin-left: 60px;
 	width: 32px;
 	height: 32px;
 }
@@ -153,20 +162,16 @@ nav ul li {
 	border-radius: 5px;
 	background-color: #CD6326;
 	margin-top: 49px;
-	/* regular-UI */
-
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 23px;
 	line-height: 27px;
-	/* identical to box height */
-
 	text-align: center;
-
-	/* font-light */
-
 	color: #F7F7F7;
+}
+.donate:hover {
+	background-color: #E39128;
 }
 .wr_content {
 	width: 1440px;
@@ -274,6 +279,12 @@ font-weight: normal;
 font-size: 17px;
 line-height: 27px;
 }
+.getNotified {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 h4 {
 	margin-bottom: 0;
 		color: #F7F7F7;
@@ -325,14 +336,17 @@ color: #666666;
 	width: 120px;
 	height: 100%;
 	background: #CD6326;
-border: 1px solid #CD6326;
-border-radius: 0px 5px 5px 0px;
-color: #F7F7F7;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 23px;
-line-height: 27px;
+	border: 1px solid #CD6326;
+	border-radius: 0px 5px 5px 0px;
+	color: #F7F7F7;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 27px;
+}
+.subscribe_button:hover {
+	background-color: #E39128;
 }
 .wr_footer {
 	background-color: #181617;
@@ -386,6 +400,9 @@ footer {
 	line-height: 60px;
 	color: #F7F7F7;
 }
+.footer_nav li a:hover {
+	text-decoration: underline;
+}
 .footer_link {
 	display: flex;
 	justify-content: space-between;
@@ -393,10 +410,14 @@ footer {
 }
 .footer_link li {
 	width: 40px;
-height: 40px;
-/*background: #F7F7F7;*/
-border-radius: 20px;
+	height: 40px;
+	border-radius: 20px;
+	cursor: pointer;
 }
+.footer_link a {
+	width: 100%;
+	height: 100%;
+} 
 .footer_link li:not(:last-child) {
 	margin-right: 27px;
 }

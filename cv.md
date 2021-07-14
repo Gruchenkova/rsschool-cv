@@ -31,9 +31,10 @@ Skills
     
     ### Certificates
     
-    ["Разработка веб-сайтов с использованием HTML, CSS и JavaScript", IT Academy](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/), Minsk 2020 ["Разработка веб-приложений на JavaScript", IT Academy](https://www.it-academy.by/course/front-end-developer/razrabotka-veb-prilozheniy-na-javascript/), Minsk 2021
+    *   ["Разработка веб-сайтов с использованием HTML, CSS и JavaScript", IT Academy](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/), Minsk 2020
+	*   ["Разработка веб-приложений на JavaScript", IT Academy](https://www.it-academy.by/course/front-end-developer/razrabotka-veb-prilozheniy-na-javascript/), Minsk 2021
 
-	RS School 2021
+	*   RS School, Minsk 2021
     
     ### Projects
     
